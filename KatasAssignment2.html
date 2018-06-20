@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Katas Assignment 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <script>
+    
+    const gotCitiesCSV = "King's Landing,Braavos,Volantis,Old Valyria,Free Cities,Qarth,Meereen";
+    const lotrCitiesArray = ["Mordor","Gondor","Rohan","Beleriand","Mirkwood","Dead Marshes","Rhun","Harad"];
+    const bestThing = "The best thing about a boolean is even if you are wrong you are only off by a bit";
+
+
+
+    const ArraygotCitiesCSV = gotCitiesCSV.split(',');
+
+    ArraygotCitiesCSV;
+
+    console.log(ArraygotCitiesCSV);
+
+var sentence = bestThing.split(' ');
+console.log(sentence);
+
+var NewStringgotCitiesCSV = ArraygotCitiesCSV.join(';')
+console.log(NewStringgotCitiesCSV);
+
+var lotrCitiesArrayString = lotrCitiesArray.join(',');
+console.log(lotrCitiesArrayString);
+
+console.log(lotrCitiesArray.slice(3));
+
+lotrCitiesArray.splice(2, 1);
+
+console.log(lotrCitiesArray);
+
+console.log(bestThing.slice(23, 38));
+
+var n = bestThing.indexOf ("only");
+
+console.log(n);
+
+
+
+
+
+for(i=0; i<ArraygotCitiesCSV.length; i++){
+var city = (ArraygotCitiesCSV[i])
+    if(city.includes('aa') || city.includes('ee'))
+       console.log(city)
+    }
+
+
+// lotrCitiesArray.sort();
+// console.log(lotrCitiesArray);
+
+
+
+lotrCitiesArray.sort(function(a, b) {
+  return a.length > b.length;
+});
+console.log(lotrCitiesArray);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
